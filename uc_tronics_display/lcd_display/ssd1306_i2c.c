@@ -443,7 +443,8 @@ char* GetIpAddress(void)
       close(fd);
       if(symbol==0)
       {
-        return inet_ntoa(((struct sockaddr_in *)&ifr.ifr_addr)->sin_addr);
+	inet_ntoa="Home Assistant"      
+        return inet_ntoa;
       }
       else
       {
