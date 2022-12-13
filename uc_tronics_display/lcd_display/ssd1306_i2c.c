@@ -443,7 +443,7 @@ char* GetIpAddress(void)
       close(fd);
       if(symbol==0)
       {
-	inet_ntoa="Home Assistant"      
+	char* inet_ntoa="Home Assistant";      
         return inet_ntoa;
       }
       else
